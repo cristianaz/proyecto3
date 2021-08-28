@@ -15,8 +15,8 @@ import { AppointmentService } from './shared/appointment.service';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 
-// environment
-import { environment } from '../environments/environment';
+// environment este es el db firebase module
+import { environment } from '../environments/environment'; 
 
 @NgModule({
   declarations: [AppComponent],
