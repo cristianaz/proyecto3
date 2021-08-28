@@ -1,7 +1,7 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Edit Appointment
+      Editar registro
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -10,25 +10,25 @@
   <ion-list lines="full">
     <form [formGroup]="updateBookingForm" (ngSubmit)="updateForm()">
       <ion-item>
-        <ion-label position="floating">Name</ion-label>
+        <ion-label position="floating">Nombre</ion-label>
         <ion-input formControlName="name" type="text" required></ion-input>
       </ion-item>
 
       <ion-item>
-        <ion-label position="floating">Email</ion-label>
+        <ion-label position="floating">Email UMG</ion-label>
         <ion-input formControlName="email" type="text" required>
         </ion-input>
       </ion-item>
 
       <ion-item>
-        <ion-label position="floating">Mobile</ion-label>
+        <ion-label position="floating">Carné</ion-label>
         <ion-input formControlName="mobile" type="text" required>
         </ion-input>
       </ion-item>
 
       <ion-row>
         <ion-col>
-          <ion-button type="submit" color="primary" shape="full" expand="block">Update Appointment</ion-button>
+          <ion-button type="submit" color="primary" shape="full" expand="block">Actualizar registro</ion-button>
         </ion-col>
       </ion-row>
     </form>
