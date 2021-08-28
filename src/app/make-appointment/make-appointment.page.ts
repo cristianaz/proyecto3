@@ -22,7 +22,7 @@ export class MakeAppointmentPage implements OnInit {
     this.bookingForm = this.fb.group({
       name: [''],
       email: [''],
-      mobile: ['']
+      carne: ['']
     })
   }
 

@@ -1,7 +1,8 @@
 {
   "name": "ionic-firebase-setup",
   "integrations": {
-    "cordova": {}
+    "cordova": {},
+    "capacitor": {}
   },
   "type": "angular"
 }

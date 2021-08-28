@@ -17,7 +17,7 @@ export class AppointmentService {
     return this.bookingListRef.push({
       name: apt.name,
       email: apt.email,
-      mobile: apt.mobile
+      carne: apt.carne
     })
   }
 
@@ -38,7 +38,7 @@ export class AppointmentService {
     return this.bookingRef.update({
       name: apt.name,
       email: apt.email,
-      mobile: apt.mobile
+      carne: apt.carne
     })
   }
 
