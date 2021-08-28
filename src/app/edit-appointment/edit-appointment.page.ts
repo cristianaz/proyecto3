@@ -29,7 +29,7 @@ export class EditAppointmentPage implements OnInit {
     this.updateBookingForm = this.fb.group({
       name: [''],
       email: [''],
-      mobile: ['']
+      carne: ['']
     })
     console.log(this.updateBookingForm.value)
   }
